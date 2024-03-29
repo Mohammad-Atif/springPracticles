@@ -9,6 +9,7 @@ import com.sun.jdi.VMOutOfMemoryException;
 @Component
 public class ImageUtil {
 
+
   private int numOfCalls = 0;
 
   public File compressImage(File imageFile, String imageType) throws VMOutOfMemoryException {
